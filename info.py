@@ -12,7 +12,7 @@ def is_enabled(value, default):
         return default
 
 # Bot information
-SESSION = environ.get('SESSION', 'Media_search')
+SESSION = environ.get('SESSION', 'BAB20DQAgd1QbVcCpXfTOignWEc5VklLdxu8WTrjqFzxfmxUnigSBo7brR7Eka7sniQqXVrmE0EawRKlDFyi5M3eXlhSNCIpNGz0Z4crjGvSmvqWfIkG1bl5xKbR0RfJJoWio4Hm9-6-Q1K-lO77gV5e26-NGVbimmcbIoefQYpPtmB6lsqc_Dfeh6rEQJUq-AMeufTLZjtG8itVTUCyU43Zk5JSyHYZ5lI0UPKl9FbcID9rmFb0pZ9PL8f9SL3fSLEWGaTWvcH7RS0vfKmxJLGK1m4uF2BjM0Za9aLza-eobTlfvattWwfJ2DSZJ0QZswzwb1ckjRsoMIgK_ryLfGJUiBxhygAAAAHLZf6cAQ')
 API_ID = int(environ.get('API_ID', '7786548'))
 API_HASH = environ.get('API_HASH', '76234c15c4db04d048a910e938acb087')
 BOT_TOKEN = environ.get('BOT_TOKEN', "7517489205:AAFXAGIgxRrKja9KZKxq1j9VBxEIU130th4")
@@ -51,8 +51,8 @@ NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False)) # True if you want n
 
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://cluster0.z3blbfz.mongodb.net/?authSource=%24external&authMechanism=MONGODB-X509&retryWrites=true&w=majority&appName=Cluster0")
-DATABASE_NAME = environ.get('DATABASE_NAME', 'Cluster0)
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
+DATABASE_NAME = environ.get('DATABASE_NAME', 'mbox')
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'mbox_bot')
 
 # Verify
 VERIFY = bool(environ.get('VERIFY', False)) # Verification On ( True ) / Off ( False )
